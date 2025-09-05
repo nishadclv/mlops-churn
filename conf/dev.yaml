@@ -2,8 +2,6 @@ catalog: "ds_training_1"
 schema: "mlops_config"
 experiment_path: "/Shared/mlops_churn/churn"
 registry_model: "ds_training_1.mlops_config.churn_classifier"
-alert_email: "alerts@example.com"
-slack_webhook: "https://hooks.slack.com/services/XXX/YYY/ZZZ"
 drift_psi_threshold: 0.2
 auc_min_threshold: 0.78
 auc_drop_threshold: 0.05
